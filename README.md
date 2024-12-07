@@ -1,6 +1,6 @@
 # Brain Agricuture
 
-projeto de API RESTful para gerenciamento de produtores rurais. Desenvolvido com Node.js e TypeScript, essa aplicação permite o cadastro, atualização, remoção e consulta de produtores rurais, com validação de CPF/CNPJ.
+Projeto de API RESTful para gerenciamento de produtores rurais. Desenvolvido com Node.js e TypeScript, essa aplicação permite o cadastro, atualização, remoção e consulta de produtores rurais, com validação de CPF/CNPJ.
 
 ## 💻 Pré-requisitos
 
@@ -8,10 +8,6 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 - Você instalou a versão mais recente de `<NodeJs | Docker>`
 - Você tem uma máquina `<Windows / Linux / Mac>`.
-
-
-## 🚀 Instalando <Docker>
-
 
 
 ## 🚀 Instalando <Brain_Agricuture>
@@ -51,6 +47,11 @@ sudo apt install docker-ce docker-ce-cli containerd.io -y
 docker --version
 ```
 
+
+Windows:
+
+https://docs.docker.com/desktop/setup/install/windows-install/
+
 # Docker-Compose 
 
 Linux e macOS:
@@ -73,10 +74,6 @@ docker-compose --version
 
 Windows:
 
-# Docker 🐋
-https://docs.docker.com/desktop/setup/install/windows-install/
-
-# Docker-Compose 
 https://docs.docker.com/compose/install/
 
 
@@ -84,14 +81,17 @@ https://docs.docker.com/compose/install/
 
 Para usar <Brain_Agricuture>, siga estas etapas:
 
+Para instalar as dependencias do projeto:
 ```
 npm install 
 ```
 
+Para baixar o conteiner do postgresql: 
 ```
 docker-compose up -d
 ```
 
+Rodando o backend:
 ```
 npm run start
 ```
