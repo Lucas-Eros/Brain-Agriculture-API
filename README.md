@@ -104,8 +104,10 @@ docker exec -it postgres-container psql -U host -d brain-agricuture-db
 
 ## ⚙️ Exemple de .env
 
-DB_HOST=localhost
+```
+DB_HOST=localhost 
 DB_PORT=5432
 DB_USER=host
 DB_PASS=1234
 DB_NAME=brain-agricuture-db
+```
